@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18434B9B21CFED1F009DE084 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18434B9A21CFED1F009DE084 /* main.cpp */; };
+		18434BA521D09B9D009DE084 /* priorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18434BA421D09B9D009DE084 /* priorityQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		18434B9721CFED1F009DE084 /* graph4.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graph4.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		18434B9A21CFED1F009DE084 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18434BA121CFED5A009DE084 /* adjListGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adjListGraph.h; sourceTree = "<group>"; };
+		18434BA221CFED5B009DE084 /* DisjointSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisjointSet.h; sourceTree = "<group>"; };
+		18434BA321D09B9D009DE084 /* priorityQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = priorityQueue.hpp; sourceTree = "<group>"; };
+		18434BA421D09B9D009DE084 /* priorityQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = priorityQueue.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,10 @@
 		18434B9921CFED1F009DE084 /* graph4.2 */ = {
 			isa = PBXGroup;
 			children = (
+				18434BA421D09B9D009DE084 /* priorityQueue.cpp */,
+				18434BA321D09B9D009DE084 /* priorityQueue.hpp */,
+				18434BA121CFED5A009DE084 /* adjListGraph.h */,
+				18434BA221CFED5B009DE084 /* DisjointSet.h */,
 				18434B9A21CFED1F009DE084 /* main.cpp */,
 			);
 			path = graph4.2;
@@ -119,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18434B9B21CFED1F009DE084 /* main.cpp in Sources */,
+				18434BA521D09B9D009DE084 /* priorityQueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
